@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-require("dotenv").config("./.env");
+require("dotenv").config();
 const {sendEmail} = require("./emails.js");
 
 const app = express();

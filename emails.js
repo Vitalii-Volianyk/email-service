@@ -13,7 +13,7 @@ const sendEmailToken = (email, token) => {
 const sendEmail = ({to, subject, html}) => {
 	const msg = {
 		to,
-		from: process.env.SENDGRID_FROM_EMAIL,
+		from: "misyuk.dev@gmail.com",
 		subject,
 		html,
 	};
